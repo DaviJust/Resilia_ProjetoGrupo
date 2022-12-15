@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@700&display=swap');
+/* ========================================= configurações gerais para todas páginas ========================================================*/
+
+body,
+html {
+  background-color: #1952BF;
+  color: black;
+  font-family: 'Jost', sans-serif;
+  text-align: center;
+  margin-top: 58px;
+  height: 100%;
+
+}
+
+/* Barra de navegação */
+.navbar-brand img {
+  margin: 0 0 0 50px;
+}
+
+.navbar-nav a {
+  font-weight: bold;
+  margin-left: 180px;
+  font-size: 20px;
+}
+
+.navbar-nav a:hover {
+  color: #1952BF;
+}
+
+div.transbox {
+  background-image: url("../img/registroLogin2.jpg");
+  margin: 30px;
+  background-color: black;
+  width: 752px;
+  height: 500px;
+  opacity: 1;
+  margin-left: 340px;
+  box-shadow: 5px 5px #888888;
+  border-radius: 25px;
+
+}
+
+.form-control2 {
+  color: rgb(0, 0, 0);
+}
+
+body {
+  background-color: #1952BF !important;
+  font-family: 'Jost', sans-serif !important;
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+}
+
+header {
+  margin-left: 10px;
+}
+
+/* Barra de navegação */
+nav {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+}
+
+nav img {
+  width: 0px;
+  margin-top: 10px;
+  margin-left: 250px;
+}
+
+nav ul {
+  float: right;
+  line-height: 80px;
+}
+
+nav ul li {
+  list-style: none;
+  float: right;
+  margin-top: -14px;
+  margin-right: 200px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  transition: 0.5s;
+}
+
+nav a:hover {
+  color: #1952BF;
+}
+
+.login2 {
+  margin-bottom: 90px;
+  width: 300px;
+  margin-left: 120px;
+}
+
+div .login {
+  margin-bottom: 40px;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+/* Rodapé */
+footer {
+  background-color: gray;
+  border-top: 5px solid rgb(71, 71, 71);
+  font-family: 'Inter', sans-serif;
+  width: 100%;
+  left: 0;
+  position: absolute;
+}
+
+#footerlogo {
+  margin-top: 15px;
+
+}
+
+#footerlogo a {
+  text-decoration: none;
+  color: white;
+}
+
+#footerredesociais {
+  display: flex;
+  justify-content: center;
+}
+
+#footerredesociais img {
+  width: 40px;
+  height: 40px;
+  margin-left: 25px;
+}
+
+#footerredesociais a {
+  margin: 30px;
+  text-align: center;
+
+}
+
+/* ================================================= Configurações da página index ========================================================== */
+/* Banner */
+#banner1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/banner1.jpg");
+  height: 65%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#textobanner1 h2 {
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 47px;
+  text-transform: uppercase;
+  text-align: center;
+  color: red;
+}
+
+#textobanner1 p {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  text-align: center;
+  color: white;
+
+}
+
+/* Texto de descrição*/
+#textodescricao {
+  color: black;
+  background-color: #113780;
+  border-radius: 40px;
+  font-size: 50px;
+  margin: 0 10px 0 10px;
+}
+
+#textodescricao p {
+  text-align: justify;
+  color: white;
+  padding: 15px 45px 0 45px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+
+#textodescricao button {
+  border: none;
+  border-radius: 5px;
+  background-color: #97ADFF;
+  color: black;
+  width: 200px;
+  height: 100px;
+  font-size: 30px;
+  font-weight: bold;
+  transition: 0.5s;
+  cursor: pointer;
+  float: right;
+  margin-right: 45px;
+  position: relative;
+}
+
+#textodescricao button:hover {
+  background-color: rgb(0, 187, 250);
+  color: white;
+}
+
+/* Texto da parte de contexto */
+#areacontexto {
+  background-color: #113780;
+  border-radius: 40px;
+  margin: 0 10px 0 10px;
+}
+
+#areacontexto img {
+  border-radius: 40px;
+  float: left;
+  width: 560px;
+  height: 408px;
+  padding-right: 20px;
+
+}
+
+#areacontexto p {
+  font-family: 'Jost', sans-serif;
+  font-weight: 400;
+  font-size: 34px;
+  text-align: justify;
+  padding-right: 45px;
+  position: relative;
+}
+
+/* Texto da parte da missão */
+#areamissao {
+  background-color: #113780;
+  border-radius: 40px;
+  margin: 0 10px 0 10px;
+}
+
+#areamissao img {
+  border-radius: 40px;
+  float: right;
+  width: 560px;
+  height: 408px;
+  padding-left: 20px;
+}
+
+#areamissao p {
+  font-family: 'Jost', sans-serif;
+  font-weight: 400;
+  font-size: 34px;
+  text-align: justify;
+  padding-left: 45px;
+  position: relative;
+}
